@@ -1,0 +1,31 @@
+{
+  "name": "cloudservices",
+  "version": "1.0.0",
+  "description": "Working with cloude services of sauce lab and webdriver io",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha spec/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamesh-a/SauceLab.git"
+  },
+  "keywords": [
+    "Cloud",
+    "services"
+  ],
+  "author": "kamesh.arumugam@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamesh-a/SauceLab/issues"
+  },
+  "homepage": "https://github.com/kamesh-a/SauceLab#readme",
+  "devDependencies": {
+    "dotenv": "^2.0.0",
+    "mocha": "^2.5.3",
+    "should": "^9.0.2"
+  },
+  "dependencies": {
+    "webdriverio": "^4.1.1"
+  }
+}
